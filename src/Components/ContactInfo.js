@@ -2,10 +2,10 @@ import React from "react";
 
 export default function ContactInfo(props){
     return (
-        <div>
+        <div className="contact">
             <p className="name">{props.name}</p>
             <p className="job-title">{props.jobtitle}</p>
-            <p className="email">{props.email}</p>
+            <small className="email">{props.email}</small>
         </div>
     )
 }

@@ -3,18 +3,76 @@
   display: flex;
   align-items: center;
   justify-content:center;
-  background-color: black;
+  background-color: #2A2F4F;
   height: 100vh;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 .card{
  border: 1px solid #000;
- background-color: #ffff;
- color: #000;
- height: 50vh;
- width: 20vw;
+ background-color: #000;
+ color: #fff;
+ height: auto;
+ width: 100%;
+ max-width: 400px;
+ border-radius: 30px;
+ padding: 20px;
+ overflow: hidden;
+
 }
 .head-shot-img{
-  height: 100px;
-  width: 100px;
+  height: 270px;
+  width: 100%;
+
+}
+.btn{
+  display: inline-block;
+  border: 1px solid #000;
+  margin: 10px 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  transition: all .2s ease-in-out;
+}
+.purple{
+  background-color: #B2A4FF;
+  color: #000;
+  border: #B2A4FF;
+}
+.contact > p {
+ margin: 0;
+/* font-size: 0.8rem; */
+}
+.name{
+  font-size: 1.3rem;
+  font-family: 'Fraunces', serif;
+  color: #B2A4FF;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.desc-text{
+  font-size: 0.9rem;
+}
+.info{
+  padding: 0 10px;
+  text-align: left;
+}
+.header{
+  font-size: 1.2rem;
+  font-family: 'Fraunces', serif;
+  color: #B2A4FF;
+  font-weight: 700;
+  margin: 0;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 450px){
+  .card{
+    width: 80vw;
+  }
 }
